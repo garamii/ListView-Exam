@@ -48,8 +48,8 @@ public class CustomAdapter extends BaseAdapter {
     /**
      * @param position 포지션
      * @param convertView 포지션의 View
-     * @param parent
-     * @return
+     * @param parent ㅎㅎㅎㅎ
+     * @returngg ㅎㅎㅎ
      */
 
     @Override

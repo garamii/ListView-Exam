@@ -8,7 +8,7 @@
         android:id="@+id/imageId"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/snowTree"
+        android:src="@drawable/snowtree"
         android:scaleType="centerCrop"/>
 
     <LinearLayout
