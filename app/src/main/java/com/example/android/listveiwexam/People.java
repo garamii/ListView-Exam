@@ -2,7 +2,6 @@ package com.example.android.listveiwexam;
 
 /**
  * Created by student on 2015-08-31.
- * ㅎㅎ
  */
 public class People {
     private String name;
@@ -14,28 +13,28 @@ public class People {
         this.imageResourceId = imageResourceId;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public void setImageResourceId(int imageResourceId) {
-        this.imageResourceId = imageResourceId;
-    }
-
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getPhoneNumber() {
         return phoneNumber;
     }
 
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     public int getImageResourceId() {
         return imageResourceId;
+    }
+
+    public void setImageResourceId(int imageResourceId) {
+        this.imageResourceId = imageResourceId;
     }
 
     private int imageResourceId;
