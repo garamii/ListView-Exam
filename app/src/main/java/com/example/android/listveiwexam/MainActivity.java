@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 리스트뷰 연습
+ * 리스트뷰 연습1
  */
 
 public class MainActivity extends AppCompatActivity {
