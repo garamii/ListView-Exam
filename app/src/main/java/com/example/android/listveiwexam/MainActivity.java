@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //암시적 인텐트 Expicite intent
 //                final Uri uri = Uri.parse(mData.get(position).getPhoneNumber());
+ //               mData.get(position).getPhoneNumber();
 //                Intent intent = new Intent(Intent.ACTION_DIAL, uri);
 
                 // 화면이동
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("image", people.getImageResourceId());
                 intent.putExtra("name", people.getName());
                 intent.putExtra("phone", people.getPhoneNumber());
+
 
 
                 startActivity(intent);
